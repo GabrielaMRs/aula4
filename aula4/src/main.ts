@@ -12,7 +12,9 @@ botao?.addEventListener('click', function(){
     const paragrafo = document.createElement('p');
     paragrafo.innerHTML = texto;
     lista?.appendChild(paragrafo)
+
+    localStorage.setItem('@TEXTO', texto);
 })
 
-localStorage.setItem('@TEXTO', lista)
+
 

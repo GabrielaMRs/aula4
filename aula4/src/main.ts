@@ -28,6 +28,7 @@ function atualizarLista() {
         const botaoRemover = document.createElement('button');
         botaoRemover.textContent = 'Remover'; 
         botaoRemover.onclick = () => removerTexto(index); 
+        botaoRemover.style.backgroundColor = 'red';
 
         paragrafo.appendChild(botaoRemover);
         lista.appendChild(paragrafo);
